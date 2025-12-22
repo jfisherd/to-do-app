@@ -17,8 +17,4 @@ To view this lab,
 C
 <br>
 
-> W
-
-T
-<br>
 
