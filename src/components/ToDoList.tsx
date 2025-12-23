@@ -7,8 +7,6 @@ export function ToDoList() {
 
     const [listArray, setListArray] = useState<ToDo[]>(myBigList)
 
-
-
     return (
         <>
             <ul>

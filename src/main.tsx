@@ -6,8 +6,8 @@ import { ToDoContext } from './contexts/ToDoContext.ts'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <ToDoContext value={{ addToDo, toggleToDo, deleteToDo, editToDo, clearCompleted}}>
+    <ToDoProvider>
       <App />
-    </ToDoContext>
+    </ToDoProvider>
   </StrictMode>,
 )

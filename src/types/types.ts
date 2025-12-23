@@ -6,3 +6,12 @@ export interface ToDo {
     dateDue: string
     completed: boolean
 }
+
+export interface ToDoContextType {
+    todos: ToDo[]
+    addToDo: () => {}
+    toggleToDo: () => {}
+    deleteToDo: () => {}
+    editToDo: () => {}
+    clearCompleted: () => {}
+}
