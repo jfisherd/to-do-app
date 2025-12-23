@@ -1,9 +1,13 @@
+import { useState } from "react"
 import { myBigList } from "../lib/toDos"
 import { ToDoListItem } from "./ToDoListItem"
+import type { ToDo } from "../types/types"
 
 export function ToDoList() {
 
-    const listArray = myBigList
+     const [listArray, setListArray] = useState<ToDo[]>(myBigList)
+
+    
 
     return (
         <>
