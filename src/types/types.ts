@@ -1,8 +1,8 @@
 export interface ToDo {
     id: number
     title: string
-    description: string
+    text: string
     dateAdded: string
     dateDue: string
-    completedStatus: boolean
+    completed: boolean
 }
