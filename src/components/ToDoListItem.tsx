@@ -13,7 +13,7 @@ export function ToDoListItem(toDoItem:ToDo) {
                     <p>Date Posted: {toDoItem.dateAdded}</p>
                     <p>Date Due: {toDoItem.dateDue}</p>
                     <p>Description: {toDoItem.text}</p>
-                    <input type='checkbox' onClick={toggleToDo}/>Completed? <div> {toDoItem.completed}</div>
+                    <input type='checkbox' onClick={toggleToDo}/> <div> Completed? {toDoItem.completed}</div>
                 </li>
         </>
     )

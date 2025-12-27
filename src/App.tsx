@@ -12,11 +12,11 @@ function App() {
 
   return (
     <>
-      <ToDoContext.Provider value= { listArray }>
+      <ToDoContext.Provider value={listArray}>
         <div>MY DEV TEXT</div>
         <ToDoInput />
         <ToDoList />
-          {/* 
+        {/* 
         <ToDoListItem />
         <ToDoListItem />
         <ToDoListItem /> 
