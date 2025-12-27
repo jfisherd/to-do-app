@@ -1,7 +1,7 @@
 import { ToDoListItem } from "./ToDoListItem"
 
 
-export function ToDoList(listArray) {
+export function ToDoList() {
 
     return (
         <>

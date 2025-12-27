@@ -1,4 +1,5 @@
 import React from "react";
+import type { ToDo } from "../types/types";
 
-export const ToDoContext = React.createContext(null)
+export const ToDoContext: undefined | ToDo[] = React.createContext(undefined)
 

@@ -2,8 +2,9 @@ import './App.css'
 import { ToDoInput } from './components/ToDoInput'
 import { ToDoList } from './components/ToDoList'
 import { useState } from 'react'
-import { myBigList } from './lib/toDos'
+import { myBigList } from './lib/toDos'               // Items to be listed
 import type { ToDo } from './types/types'
+import { ToDoContext } from './contexts/ToDoContext'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <>
-      <ToDoContext.Provider value={ 'asdf'}>
+      <ToDoContext.Provider value= { listArray }>
         <div>MY DEV TEXT</div>
         <ToDoInput />
         <ToDoList />

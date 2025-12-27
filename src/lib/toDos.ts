@@ -1,6 +1,5 @@
 import type { ToDo } from "../types/types"
 
-
 export const myBigList: ToDo[] = [{
     id: 1,
     title: 'title1',
