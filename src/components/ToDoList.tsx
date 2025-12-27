@@ -1,7 +1,11 @@
+import { ToDoContext } from "../contexts/ToDoContext"
 import { ToDoListItem } from "./ToDoListItem"
-
+import { useContext } from "react"
 
 export function ToDoList() {
+
+    const { listArray } = useContext(ToDoContext)
+    
 
     return (
         <>
