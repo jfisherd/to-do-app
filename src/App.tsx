@@ -8,7 +8,6 @@ import { ToDoContext } from './contexts/ToDoContext'
 
 function App() {
 
-
   const [listArray, setListArray] = useState<ToDo[]>(myBigList)
 
   return (

@@ -1,11 +1,10 @@
-import { useContext, useState } from "react"
-import { ToDoContext } from "../contexts/ToDoContext"
-
 import type { ToDo } from "../types/types"
 
 export function ToDoListItem(toDoItem:ToDo) {
 
-
+    function toggleToDo() {
+        toDoItem.completed = !toDoItem.completed
+    }
 
     return (
         <>
